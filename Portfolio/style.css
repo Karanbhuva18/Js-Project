@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidbar{
+background-color: rgb(223, 218, 218);
+width: 434px;
+font-family: Source Sans Pro;
+}
+.sidbar nav{
+    padding: 15px;
+    height: 100vh;
+}
+.sidbar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+}
+.sidbar nav li a{
+  text-decoration: none;
+  color: black;
+}
+
+.main{
+ 
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    
+    height: 58vh;
+    width: 80vw;
+    margin: 105px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro',monospace;
+}
+.hello{
+font-size: 55px;
+
+}
+.name{
+font-size: 50px;
+font-weight: bold;
+font-family: Source Sans Pro;
+}
+.about{
+font-size: 30px;
+
+}
+.moreabout{
+    font-size: 21px;
+    margin-top: 23px;
+    font-family: Source Sans Pro;
+}
+.buttons{
+    margin: 34px;
+}
+.buttons button{
+padding: 9px 14px;
+border-radius: 22px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 20px;
+margin: 0 3px;
+cursor:pointer;
+}
+.buttons button:hover{
+background-color: white;
+color: dodgerblue;
+}
+.devPic img{
+    height: 58vh;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: Source Sans Pro;
+    
+}
+.contactform h1{
+    font-family: 'Source Code Pro',monospace;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 2px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+   width: 26vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+}
+#emailHelp{
+    font-size: 12px;
+    color: deepskyblue;
+    margin: 0 5px;
+}
+#form-check{
+flex-direction: row;
+}
+#form-check input{
+width: 24px;
+margin: 3px 0;
+}
+.btn{
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px 3px;
+    font-size: 20px;
+}
+.btn button:hover{
+    border-radius: 10px;
+    background-color: #301e15;
+    color: whitesmoke;
+}
+.btn-sm{
+    padding: 5px;
+    width: 70px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px 3px;
+    font-size: 10px;
+    background-color: #523c31;
+    color: whitesmoke;
+    border-radius: 20px;
+}
+
+.blogIteam{
+    margin: 20px;
+    font-family: 'Source Sans Pro';
+}
+.blogContainer h1{
+    font-family: 'Source Code Pro',monospace;
+    margin: 23px;
+}
+.blogIteam p{
+    font-family: 'Source Sans Pro';
+}
+#m1{
+    background-image: url("bg7.jpg");
+    background-color: #CD6155;
+    background-position: center;
+    background-size:cover;
+    color: #011d1a;
+}
+.intro h2{
+    font-family: 'Source Code Pro',monospace;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'Source Sans Pro';
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillIteam{
+    display: flex;
+    align-items: center;
+}
+.skill{
+    width: 23px;
+    height: 10px;
+    background-color: red;
+    padding-right: 200px;
+}
+.hundered{
+    width: 265px;
+    background-color: #150429;
+}
+.fifty{
+    width: 125px;
+    background-color: #011d1a;
+}
+.t5{
+    width: 75px;
+    background-color: #4d381a;
+}
